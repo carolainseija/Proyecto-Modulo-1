@@ -1,5 +1,3 @@
-
-
 .login-h4 {
     font-family: Montserrat;
 }
@@ -9,7 +7,7 @@
     width: 527px;
 }
 
-.form-checkbox .login-checkbox {
+.form-checkbox-input {
     width: 29.17px;
     height: 29.17px;
     margin-right: 15.83px;
