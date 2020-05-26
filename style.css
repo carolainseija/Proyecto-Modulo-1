@@ -12,6 +12,15 @@
 .header__img {
     margin-right: 5px;
 }
+
+.login-form {
+    width: 527px;
+}
+
+.input-login {
+    height: 57px;
+}
+
 @media (max-width: 576px) {
     .first:after {
         content: 'Extra small';
