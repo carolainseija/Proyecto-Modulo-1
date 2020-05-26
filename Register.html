@@ -1,127 +1,185 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
-</head>
-<body>
-    <header>
-        <img src="LogoSoloBlancoFondoTransparente.png">
-        <h1>Termoify</h1>
-    </header>
+    <link rel="stylesheet" href="hd-ft-light.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    />
+  </head>
+  <body>
+    <div class="conteiner">
+      <header class="conteiner-fluid text-center header-light">
+        <div class="mt-2 mb-2">
+          <h1 class="font-weight-bold">
+            <img
+              class="header--img"
+              src="Images/LogoSoloBlancoFondoTransparente.png"
+            />Termoify
+          </h1>
+        </div>
+        <hr />
+      </header>
 
-    <h4>Registrate con tu dirección de email</h4>
-    
-    <form>
-        <input type="email" id="email" class="form-control" placeholder="Correo electronico">
-        <input type="email" id="email" class="form-control" placeholder="Confirmar correo electronico">
-        <input type="password" id="pwd" name="pwd" minlength="8" placeholder="Contraseña">
-        <input type="text" id="usuario" placeholder="Nombre de usuario">
-        <label for="SELECTDay">FECHA DE NACIMIENTO</label>
-        
-        <select name="SELECTDay">
-            <option>Día</option>
-            <option value="1">1</option>
-            <option value="2">2</option>
-            <option value="3">3</option>
-            <option value="4">4</option>
-            <option value="5">5</option>
-            <option value="6">6</option>
-            <option value="7">7</option>
-            <option value="8">8</option>
-            <option value="9">9</option>
-            <option value="10">10</option>
-            <option value="11">11</option>
-            <option value="12">12</option>
-            <option value="13">13</option>
-            <option value="14">14</option>
-            <option value="15">15</option>
-            <option value="16">16</option>
-            <option value="17">17</option>
-            <option value="18">18</option>
-            <option value="19">19</option>
-            <option value="20">20</option>
-            <option value="21">21</option>
-            <option value="22">22</option>
-            <option value="23">23</option>
-            <option value="24">24</option>
-            <option value="25">25</option>
-            <option value="26">26</option>
-            <option value="27">27</option>
-            <option value="28">28</option>
-            <option value="29">29</option>
-            <option value="30">30</option>
-            <option value="31">31</option>
-        </select>
+      <div class="text-center">
+        <h4 class="font-weight-bold login-h4">
+          Registrate con tu direccion de email
+        </h4>
+      </div>
+      <div CLASS="d-flex align-items-center flex-column">
+            <div class="input-group mb-3">
+            <form>
+            
+              <input
+                type="email"
+                id="email"
+                class="form-control"
+                placeholder="Correo electronico"
+              />
+              <input
+                type="email"
+                id="email"
+                class="form-control"
+                placeholder="Confirmar correo electronico"
+              />
+              <input
+                type="password"
+                id="pwd"
+                name="pwd"
+                minlength="8"
+                placeholder="Contraseña"
+              />
+              <input 
+                type="text" 
+                id="usuario" 
+                placeholder="Nombre de usuario" 
+              />
+            </div>
+              <label for="SELECTDay">FECHA DE NACIMIENTO</label>
 
-        <select name="SELECTMonth">
-            <option>Mes</option>
-            <option value="January">January</option>
-            <option value="Febuary">Febuary</option>
-            <option value="March">March</option>
-            <option value="April">April</option>
-            <option value="May">May</option>
-            <option value="June">June</option>
-            <option value="July">July</option>
-            <option value="August">August</option>
-            <option value="September">September</option>
-            <option value="October">October</option>
-            <option value="November">November</option>
-            <option value="December">December</option>
-        </select>
+              <select name="SELECTDay">
+                <option>Día</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+                <option value="13">13</option>
+                <option value="14">14</option>
+                <option value="15">15</option>
+                <option value="16">16</option>
+                <option value="17">17</option>
+                <option value="18">18</option>
+                <option value="19">19</option>
+                <option value="20">20</option>
+                <option value="21">21</option>
+                <option value="22">22</option>
+                <option value="23">23</option>
+                <option value="24">24</option>
+                <option value="25">25</option>
+                <option value="26">26</option>
+                <option value="27">27</option>
+                <option value="28">28</option>
+                <option value="29">29</option>
+                <option value="30">30</option>
+                <option value="31">31</option>
+              </select>
 
-        <select name="SELECTYear">
-            <option>Año</option>
-            <option value="1993">2019</option>
-            <option value="1992">2018</option>
-            <option value="1991">2017</option>
-            <option value="1990">2016</option>
-            <option value="1989">2015</option>
-            <option value="1988">2014</option>
-            <option value="1987">2013</option>
-            <option value="1986">2012</option>
-            <option value="1985">2011</option>
-            <option value="1984">2010</option>
-            <option value="1983">2009</option>
-            <option value="1982">2008</option>
-            <option value="1981">2007</option>
-            <option value="1980">2006</option>
-            <option value="1979">2005</option>
-            <option value="1978">2004</option>
-            <option value="1977">2003</option>
-            <option value="1976">2002</option>
-            <option value="1975">2001</option>
-            <option value="1974">2000</option>
-            <option value="1973">1999</option>
-            <option value="1972">1998</option>
-            <option value="1971">1997</option>
-            <option value="1970">1996</option>
-            <option value="1969">1995</option>
-        </select>
+              <select name="SELECTMonth">
+                <option>Mes</option>
+                <option value="January">January</option>
+                <option value="Febuary">Febuary</option>
+                <option value="March">March</option>
+                <option value="April">April</option>
+                <option value="May">May</option>
+                <option value="June">June</option>
+                <option value="July">July</option>
+                <option value="August">August</option>
+                <option value="September">September</option>
+                <option value="October">October</option>
+                <option value="November">November</option>
+                <option value="December">December</option>
+              </select>
 
-        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
-        <label class="form-check-label" for="inlineRadio1">Masculino</label>
-        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
-        <label class="form-check-label" for="inlineRadio2">Femenino</label>
-        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3">
-        <label class="form-check-label" for="inlineRadio2">Otro</label>
+              <select name="SELECTYear">
+                <option>Año</option>
+                <option value="1993">2019</option>
+                <option value="1992">2018</option>
+                <option value="1991">2017</option>
+                <option value="1990">2016</option>
+                <option value="1989">2015</option>
+                <option value="1988">2014</option>
+                <option value="1987">2013</option>
+                <option value="1986">2012</option>
+                <option value="1985">2011</option>
+                <option value="1984">2010</option>
+                <option value="1983">2009</option>
+                <option value="1982">2008</option>
+                <option value="1981">2007</option>
+                <option value="1980">2006</option>
+                <option value="1979">2005</option>
+                <option value="1978">2004</option>
+                <option value="1977">2003</option>
+                <option value="1976">2002</option>
+                <option value="1975">2001</option>
+                <option value="1974">2000</option>
+                <option value="1973">1999</option>
+                <option value="1972">1998</option>
+                <option value="1971">1997</option>
+                <option value="1970">1996</option>
+                <option value="1969">1995</option>
+              </select>
 
-        <button><a href="#" >REGISTRARSE</a></button>
-    </form>
+              <input
+                class="form-check-input"
+                type="radio"
+                name="inlineRadioOptions"
+                id="inlineRadio1"
+                value="option1"
+              />
+              <label class="form-check-label" for="inlineRadio1">Masculino</label>
+              <input
+                class="form-check-input"
+                type="radio"
+                name="inlineRadioOptions"
+                id="inlineRadio2"
+                value="option2"
+              />
+              <label class="form-check-label" for="inlineRadio2">Femenino</label>
+              <input
+                class="form-check-input"
+                type="radio"
+                name="inlineRadioOptions"
+                id="inlineRadio3"
+                value="option3"
+              />
+              <label class="form-check-label" for="inlineRadio2">Otro</label>
 
-    <hr>
+              <button><a href="#">REGISTRARSE</a></button>
+            </form>
+    </div>
 
-    <a href="#">¿Ya tienes cuenta?</a>
-    <button><a href="#">INICIA SESIÓN</a></button>
-    <footer>
+      <hr />
+
+      <a href="#">¿Ya tienes cuenta?</a>
+      <button><a href="#">INICIA SESIÓN</a></button>
+      <footer>
         <p>Diseñado en Uruguay</p>
         <div>
-            <img src="Spotify Logo.png">
-            <p>Powered by</p>
+          <img src="Spotify Logo.png" />
+          <p>Powered by</p>
         </div>
-    </footer>
-</body>
+      </footer>
+    </div>
+  </body>
 </html>
