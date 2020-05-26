@@ -1,0 +1,29 @@
+
+/* .conteiner {
+    display: flex;
+    background: rebeccapurple;
+    color: #fff;
+    font-size: 3em;
+    height: 50vh;
+    justify-content: center;
+    align-items: center;
+} */
+
+.header__img {
+    margin-right: 5px;
+}
+@media (max-width: 576px) {
+    .first:after {
+        content: 'Extra small';
+    }
+}
+@media (min-width: 576px) {
+    .first:after {
+        content: 'Small';
+    }
+}
+@media (min-width: 768px) {
+    .first:after {
+        content: 'Medium';
+    }
+}
