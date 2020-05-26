@@ -8,17 +8,21 @@
     justify-content: center;
     align-items: center;
 } */
-.login-header {
+.header-light {
     margin-bottom: 34px;
 }
-.header__img {
-    margin-right: 5px;
+.header--img {
+    margin-right: 12px;
+    margin-bottom: 5px;
 }
-
+h1 {
+    font-family: Righteous;
+}
+.login-h4 {
+    font-family: Montserrat;
+}
 /* LOGIN-FORM */
-/* .box-login-form {
-    margin-top: 37px;
-} */
+
 .login-form {
     width: 527px;
 }
@@ -37,13 +41,53 @@
     line-height: 24px;
 }
 
-.button-green {
-    color: white;
+.login-form .button-green {
+    border-radius: 33px;
+    background-color:#1ED760 ;
     width: 204px;
     height: 38px;
-    text-transform: uppercase;
+}
+.button-green-text {
+    color:white;
+    text-decoration: none;
     font-family: Montserrat;
     font-style: normal;
+    font-size: 18px;
+    line-height: 22px;
+}
+.button-white {
+    width: 204px;
+    height: 38px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    box-sizing: border-box;
+    border-radius: 42px;
+    border-color: rgb(0, 0, 0);
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+}
+
+.login-psw-ask {
+    color: #1ED760;
+    text-decoration: none;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+}
+.login-account-ask {
+    width: 204px;
+    height: 16px;
+    text-decoration: none;
+    color: black;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
     font-size: 18px;
     line-height: 22px;
 }

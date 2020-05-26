@@ -9,33 +9,45 @@
 </head>
 <body>
 <div class="conteiner">
-        <header class="conteiner-fluid text-center login-header">
-            <h1><img class="header__img" src="Images/LogoSoloBlancoFondoTransparente.png">Termoify</h1>
+        <header class="conteiner-fluid text-center header-light">
+            <div class="mt-2 mb-2">
+                <h1 class="font-weight-bold"><img class="header--img" src="Images/LogoSoloBlancoFondoTransparente.png">Termoify</h1>
+            </div>
             <hr>
         </header>
         <div class="text-center">
-            <h4>Para continuar, inicia sesión</h4>
+            <h4 class="font-weight-bold login-h4">Para continuar, inicia sesión</h4>
         </div>
 
         <!-- form-login -->
 
-    <div class="d-flex align-items-center flex-column box-login-form mt-4">
+    <div class="d-flex align-items-center flex-column mt-4">
         <form class="flex login-form">
-            <div class="p-2 input-group-lg"><input type="email" id="login-email" class="form-control rounded-pill input-login" placeholder="Correo electronico"></div>    
-            <div class="p-2 input-group-lg"><input type="password" id="login-password" class="form-control rounded-pill input-login" name="pwd" minlength="8 " placeholder="Contraseña"></div>
-            <div class="d-flex justify-content-between flex-row mt-3">
-                <div class="p-2 d-flex  align-items-center login-checkbox-text"><input type="checkbox" class="login-checkbox" name="Recuerdame">Recuérdame</div> 
-                <button class="btn btn-success rounded-pill button-green"><a class="button-green" href="#">Iniciar Sesión</a></button>
+            <div class="p-2 input-group-lg"><input type="email" id="login-email" class="form-control rounded-pill input-login" placeholder="Correo electronico o Nombre de Usuario"></div>    
+            <div class="p-2 input-group-lg">
+                <input type="password" id="login-password" class="form-control rounded-pill input-login" name="pwd" minlength="8" laceholder="Contraseña">
             </div>
-            <div class="text-center">
-                <a href="#">¿Has olvidado la contraseña?</a>
+            <div class="d-flex justify-content-between ">
+                <div class="form-check">
+                    <input class="form-check-input login-checkbox" type="checkbox" value="" id="defaultCheck1">
+                    <label class="form-check-label" for="defaultCheck1">
+                        Recuerdame
+                    </label>
+                  </div>
+                    <button class="btn btn-success text-uppercase button-green">Iniciar Sesión</button>
             </div>
+            <div class="text-center mt-3 mb-4">
+                <a href="#" class="login-psw-ask">¿Has olvidado la contraseña?</a>
+            </div>
+            <hr>
         </form>
     </div>
-    <hr>
+    
     <div class="d-flex flex-column align-items-center">
-        <a href="#">¿No tienes cuenta?</a>
-        <a class="btn btn-primary" href="#" class="button-white" role="button">REGISTRATE</a>
+        <div class="text-center mt-3 mb-1">
+            <a class="login-account-ask my-5" href="#">¿No tienes cuenta?</a>
+        </div>
+        <button class="button-white mt-3"><a href="#" class="button-white" role="button">REGISTRATE</a></button>
     </div>
     
 </div>
