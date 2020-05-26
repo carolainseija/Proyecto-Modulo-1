@@ -8,7 +8,7 @@
     justify-content: center;
     align-items: center;
 } */
-.login-header {
+.header-light {
     margin-bottom: 34px;
 }
 .header__img {
@@ -16,9 +16,7 @@
 }
 
 /* LOGIN-FORM */
-/* .box-login-form {
-    margin-top: 37px;
-} */
+
 .login-form {
     width: 527px;
 }
@@ -38,12 +36,22 @@
 }
 
 .button-green {
-    color: white;
+    background-color:#1ED760;
+    color:white;
     width: 204px;
     height: 38px;
     text-transform: uppercase;
     font-family: Montserrat;
     font-style: normal;
+    font-size: 18px;
+    line-height: 22px;
+}
+.login-psw-ask {
+    color: #1ED760;
+    text-decoration: none;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
     font-size: 18px;
     line-height: 22px;
 }
