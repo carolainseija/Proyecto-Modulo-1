@@ -1,0 +1,15 @@
+.register-form {
+    width: 527px;
+}
+.register-input {
+    height: 57px;
+}
+.born-register {
+    width: 527px;
+    height: 57px;
+}
+.born-register-select {
+    height: 57px;
+    box-sizing: border-box;
+    border: 1px solid black;
+}
