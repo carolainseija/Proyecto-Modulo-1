@@ -15,6 +15,14 @@
     box-sizing: border-box;
     border: 1px solid black;
 }
+option {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(31, 32, 65, 0.25);
+}
 .select-year {
     width: 173px;
 }
@@ -34,6 +42,14 @@
     width: 20px;
     height: 20px;
     background-color: green;
+}
+.input-gender-label {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    color: rgba(31, 32, 65, 0.25);
 }
 .hr-line {
     width: 527px;

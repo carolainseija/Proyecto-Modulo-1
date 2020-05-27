@@ -8,3 +8,11 @@
 h1 {
     font-family: Righteous;
 }
+.footer-register {
+    margin-top: 57px;
+    border-top: 1px solid rgb(206, 204, 204) ;
+}
+.lg-footer {
+    width: 111px;
+    height: 67px;
+}
