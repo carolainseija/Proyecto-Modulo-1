@@ -1,5 +1,6 @@
 .register-form {
     width: 527px;
+    height: auto;
 }
 .register-input {
     height: 57px;
@@ -9,7 +10,48 @@
     height: 57px;
 }
 .born-register-select {
+    width: ;
     height: 57px;
     box-sizing: border-box;
     border: 1px solid black;
+}
+.select-year {
+    width: 173px;
+}
+.select-day {
+    width: 90px;
+}
+.select-month {
+    width: 211px;
+}
+.button-green {
+    width: 191px;
+    height: 38px;
+    border-radius: 33px;
+    background-color:#1ED760;
+}
+.input-gender[type="radio"]{
+    width: 20px;
+    height: 20px;
+    background-color: green;
+}
+.hr-line {
+    width: 527px;
+}
+.register-account-ask {
+    width: 185px;
+    height: 16px;
+    text-decoration: none;
+    color: black;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+}
+.button-white {
+    width: 204px; 
+    height: 38px;
+    background: white !important;
+    border: solid 2px black !important;
 }

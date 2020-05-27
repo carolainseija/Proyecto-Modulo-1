@@ -31,18 +31,17 @@
         </h4>
       </div>
       <div class="d-flex flex-column align-items-center justify-content-center text-center">
-          <div class="">
-            <form class="register-form">
+          <form class="register-form">
               <input
                 type="email"
                 id="email"
-                class="form-control mb-2 rounded-pill register-input"
+                class="form-control mb-3 rounded-pill register-input"
                 placeholder="Correo electronico"
               />
               <input
                 type="email"
                 id="email"
-                class="form-control mb-2 rounded-pill register-input"
+                class="form-control mb-3 rounded-pill register-input"
                 placeholder="Confirmar correo electronico"
               />
               <input
@@ -51,19 +50,18 @@
                 name="pwd"
                 minlength="8"
                 placeholder="Contraseña"
-                class="form-control mb-2 rounded-pill register-input"
+                class="form-control mb-3 rounded-pill register-input"
               />
               <input 
                 type="text" 
                 id="usuario" 
                 placeholder="Nombre de usuario" 
-                class="form-control mb-2 rounded-pill register-input"
+                class="form-control mb-3 rounded-pill register-input"
               />
-          </div>
-          <div class="d-flex flex-column born-register">
+          <div class="d-flex flex-column born-register mb-3">
               <label class="d-flex align-items-center" for="SELECTDay">FECHA DE NACIMIENTO</label>
-              <div class="d-inline-flex justify-content-center align-items-center  justify-content-between born-register"> 
-                  <select class="btn rounded-pill born-register-select" name="SELECTDay">
+              <div class="d-inline-flex justify-content-left align-items-end justify-content-between born-register mb-2"> 
+                  <select class="btn rounded-pill born-register-select align-items-left select-day" name="SELECTDay">
                     <option>Día</option>
                     <option value="1">1</option>
                     <option value="2">2</option>
@@ -98,7 +96,7 @@
                     <option value="31">31</option>
                   </select>
                 
-                  <select class="btn rounded-pill born-register-select" name="SELECTMonth">
+                  <select class="btn rounded-pill born-register-select align-items-left select-month" placeholder="Mes" name="SELECTMonth">
                     <option>Mes</option>
                     <option value="January">January</option>
                     <option value="Febuary">Febuary</option>
@@ -114,7 +112,7 @@
                     <option value="December">December</option>
                   </select>
                 
-                  <select class="btn rounded-pill born-register-select" name="SELECTYear">
+                  <select class="btn rounded-pill born-register-select align-items-left select-year" name="SELECTYear">
                     <option>Año</option>
                     <option value="1993">2019</option>
                     <option value="1992">2018</option>
@@ -144,41 +142,52 @@
                   </select>
               </div>
           </div>
-          <div class="d-inline-flex flex-row align-items-center justify-content-between">    
+          <div class="d-flex flex-row align-items-center justify-content-left mt-5 mb-3">
+
               <input
+                class="d-inline-flex mr-2 input-gender"
                 type="radio"
                 name="inlineRadioOptions"
                 id="inlineRadio1"
                 value="option1"
               />
-              <label class="form-check-label" for="inlineRadio1">Masculino</label>
+              <label class="form-check-label mr-3" for="inlineRadio1">Masculino</label>
+
               <input
+                class="d-inline-flex mr-2 ml-4 input-gender"
                 type="radio"
                 name="inlineRadioOptions"
                 id="inlineRadio2"
                 value="option2"
               />
-              <label class="form-check-label" for="inlineRadio2">Femenino</label>
+              <label class="form-check-label mr-3" for="inlineRadio2">Femenino</label>
+          
               <input
+                class="d-inline-flex ml-4 mr-2 input-gender"
                 type="radio"
                 name="inlineRadioOptions"
                 id="inlineRadio3"
                 value="option3"
               />
-              <label class="form-check-label" for="inlineRadio2">Otro</label>
+              <label class="form-check-label ml-1" for="inlineRadio2">Otro</label>
+
             </div>
-              <button><a href="#">REGISTRARSE</a></button>
-            </form>
-  </div>
+              <button class="btn btn-success text-uppercase button-green rounded-pill mt-4 mb-4">REGISTRARSE</button>
+          </form>
+      </div>
+      <hr class="hr-line">
 
-      <hr>
+      <div class="d-flex flex-column align-items-center">
+        <div class="text-center mt-3 mb-1">
+            <a class="register-account-ask my-5" href="#">¿Ya tienes cuenta?</a>
+        </div>
+            <a href="#" id="register--buttom" class="btn btn-light btn-lg active button-white d-flex align-items-center justify-content-center mt-3 rounded-pill border border-dark" role="button" aria-pressed="true">INICIAR SESIÓN</a>
+      </div>
 
-      <a href="#">¿Ya tienes cuenta?</a>
-      <button><a href="#">INICIA SESIÓN</a></button>
       <footer>
         <p>Diseñado en Uruguay</p>
         <div>
-          <img src="Spotify Logo.png" />
+          <img src="Spotify Logo.png"/>
           <p>Powered by</p>
         </div>
       </footer>
