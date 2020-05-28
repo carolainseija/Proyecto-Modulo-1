@@ -1,0 +1,5 @@
+div[class|="col"] {
+    background-color: red;
+    border: 1px blue;
+    border-style: inset;
+}
