@@ -6,35 +6,53 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="stylenewplaylist.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+     <!--libreria de los icono busqueda-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>newplaylist</title>
 </head>
 
 <body>
- 
-    <div class="container">
-
-</header>
-<header>
-    <div class="container dark">
-            <div class="container logo">
-                <h1><img class="header__img" src="images/LogoSoloBlancoFondoTransparente.png">Termoify</h1>
-            </div>
+<!--container principal-->
+<div class="container-fluid text-white">
+    
+ <header>
   
-           <nav class="navbar-header">
-            <a href="#" role="button" data-testid="login" class="navbar button text-decoration-none">Usuario</a> 
-         </nav>
-    </div>
-  </header>
+   <nav class="navbar navbar-expand-lg" id="mainNav">
+     <div class="row">
+               <img src="Images/LogoSoloBlancoFondoTransparente.png"></a>
+               <h2>Termoify</h2>
+        </div>   
 
-<hr>
-<div class="container d-flex align-items-center flex-column box-login-form mt-4">
-       <div class="row text-center">
-         <h1>Baila sin parar</h1>
-      </div>   
-<hr>
-      <div class="row"
-        <input> class="search" type="text" name="search" placeholder="buscar aqui">  
-      </div>
+        <div class="row collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                  <li class="nav-item">
+                    <p><a href="#" class="text-white text-decoration-none">Usuario</a></p>
+                  </li>
+                </ul>
+          </div>
+    </nav>
+  
+  </header>
+          
+    
+       <div class="container d-flex align-items-center flex-column box-login-form mt-4">
+             <div class="row text-center">
+             <h1 class="text-center text-white border-top-0 border-right-0 border-bottom-1 border-left-0 border border-light">Baila sin parar</h1>
+        </div>   
+        <hr class="bg-white">
+
+        
+<form class="form-inline">
+  <input class="form-control text-secundary border border-dark rounded-pill" type="search" placeholder="buscar una cancion" aria-label="Search">
+</form>
+
+ <!---
+              <input class="text-secundary border border-dark rounded-pill" type="text" name="search" placeholder="buscar una cancion">   -->  
+        
+    
+
+
+
 
   <table class="align-items-center">
       
@@ -46,9 +64,9 @@
         <th scope="col">Reproducciones</th>
         <th scope="col">Duracion</th>
     </tr>
-    <tr>
+    <tr class="bg-dark text-white">
         <th scope="row">1</th>
-        <td>icono</td>
+        <td><button class="button">+</button></td>
         <td>Dame dame</td>
         <td>Claydee feat</td>
         <td>39,566</td>
@@ -56,15 +74,15 @@
       </tr>
       <tr>
         <th scope="row">2</th>
-        <td>icono</td>
+        <td><button class="button">+</button></td>
         <td>Kamelia</td>
         <td>DDY Nunes</td>
         <td>32,426</td>
         <td>3:30</td>
       </tr>
-      <tr>
+      <tr class="bg-dark text-white">
         <th scope="row">3</th>
-        <td>icono</td>
+        <td><button class="button">+</button></td>
         <td>Lough till you cry</td>
         <td>Faydee</td>
         <td>28,221</td>
@@ -72,7 +90,9 @@
       </tr>
       <tr>
         <th scope="row">4</th>
-          <td>icono</td>
+          <td>
+            <button class="button">+</button>
+          </td>
           <td>I don´t know</td>
           <td>Deejay fly</td>
           <td>21,528</td>
@@ -82,28 +102,36 @@
  
   <div class="container text-center">
     <a  class="showmore text-decoration-none" href="#">Show more</a>
+    <svg class="bi bi-chevron-double-down" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+      <path fill-rule="evenodd" d="M1.646 6.646a.5.5 0 0 1 .708 0L8 12.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+      <path fill-rule="evenodd" d="M1.646 2.646a.5.5 0 0 1 .708 0L8 8.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+    </svg>
   </div>
 </div>
   
   
-
-  <footer>
+<hr class="bg-white">
+<footer>
+<div class="contaimer">
+  <div class="row aling-item-center justify-content-start text-white">
        <p>
           Diseñado en Uruguay
        </p>
+  </div>
 
-
-     <div>
+   <div class="row aling-item-center justify-content-end">
          <p>
              Powered by
          </p>
          <h1>
-             <img class="header__img" src="images/LogoSoloBlancoFondoTransparente.png">Termoify
+          <img src="images/LogoSoloBlancoFondoTransparente.png">Termoify
         </h1>
-     </div>
+   </div>
 
-  </footer>
-
+</div>
+</footer>
+</div>
+</div>
 </div>
 </body>
 </div>
