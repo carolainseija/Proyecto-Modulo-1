@@ -1,0 +1,28 @@
+.header-dark-text {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    margin-right: 40px;
+}
+
+.has-search .form-control-feedback {
+    z-index: 2;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+}
+
+.home-main-text {
+    width: 797px;
+}
+.button-green {
+    border-radius: 33px;
+    background-color:#1ED760 ;
+    width: 204px;
+    height: 38px;
+}
