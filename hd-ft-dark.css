@@ -1,5 +1,5 @@
 .header-dark {
-    margin-bottom: 34px;
+    margin-bottom: 100px;
     background-color: black;
 }
 .header--img {
@@ -10,4 +10,14 @@
 .header-dark-h1 {
     font-family: Righteous;
     color: white;
+}
+.footer-register {
+    height: 57px;
+    margin-top: 100px;
+    border-top: 1px solid rgb(0, 0, 0);
+
+}
+.lg-footer {
+    width: 111px;
+    height: 67px;
 }
