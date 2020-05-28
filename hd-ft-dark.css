@@ -1,0 +1,13 @@
+.header-dark {
+    margin-bottom: 34px;
+    background-color: black;
+}
+.header--img {
+    margin-right: 12px;
+    margin-bottom: 5px;
+    margin-left: 60px;
+}
+.header-dark-h1 {
+    font-family: Righteous;
+    color: white;
+}
