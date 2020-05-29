@@ -14,10 +14,10 @@
     
 <div class="container_main">
 
-      <div class="container-fluid">
+      <div class="container-fluid ">
         <div class="row justify-content-center">
 
-          <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+          <div class="col-12 col-sm-12 col-md-12 col-lg-12 bg-md-success bg-lg-dark">
 
             <header class="conteiner-fluid d-flex mb-3">
 
@@ -30,12 +30,44 @@
                     </h1>
               </div>
             
-              
-              <div class="p-2 d-flex align-items-center justify-content-center" style="color: white;">
+            
+              <div class="d-none  d-lg-flex  col-lg-3 p-2 aling-item-center justify-content-center" style="color: white;">
+                  <strong>Usuario</strong>
+              </div>
+            
+           <!-- <div class="d-flex d-lg-none">
+              <button type="button" class="btn btn_search bg-white"></button>
+            <button type="button" class="btn">
+            </button>  <img src="Images/search.png" class="rounded-circle">
+            </div> -->
+
+            </header>
+            <!--header mobil
+
+
+            <header class="conteiner-fluid d-flex mb-3 d-block d-lg-none bg-success">
+
+              <div class="mr-auto p-2 ml-4">
+                  <h1 class="font-weight-bold text-white">
+                      <img
+                        class="header--img"
+                        src="Images/logo2.png"
+                      />Termoify
+                    </h1>
+              </div>
+            
+            
+              <div class="d-none  d-lg-flex  col-lg-3 p-2 aling-item-center justify-content-center" style="color: white;">
                   <strong>Usuario</strong>
               </div>
 
-            </header>
+          
+             <div class="d-flex d-lg-none">
+              <button type="button" class="border border-white btn btn-white rounded-circle btn_search"></button>
+            </div>
+
+            </header>-->
+
 
           </div>
         </div>  
@@ -63,7 +95,8 @@
   
 
       <table class="container">
-        <div class="row"><p class="text-white">Resultados</p>
+        <div class="row">
+          <p class="d-none d-lg-block text-white">Resultados</p>
         </div>
     
       <tr class="text-white col-sm-12 col-md-12 col-lg-12"></th>
@@ -71,7 +104,7 @@
           <th scope="col-sm-12 col-md-12 col-lg-12">*</th>
           <th scope="col-sm-12 col-md-12 col-lg-12">Agregar</th>
           <th scope="col-sm-12 col-md-12 col-lg-12">Autor</th>
-          <th scope="col-sm-12 col-md-12 col-lg-12">Reproducciones</th>
+          <th scope="col-sm-12 col-md-12 col-lg-12">Votos</th>
           <th scope="col-sm-12 col-md-12 col-lg-12">Duracion</th>
       </tr>
       <tr class="bg-dark">
@@ -79,7 +112,7 @@
           <td><button class="button">+</button></td>
           <td>Dame dame</td>
           <td>Claydee feat</td>
-          <td>39,566</td>
+          <td>45</td>
           <td>4:21</td>
         </tr>
         <tr>
@@ -87,7 +120,7 @@
           <td><button class="button">+</button></td>
           <td>Kamelia</td>
           <td>DDY Nunes</td>
-          <td>32,426</td>
+          <td>38</td>
           <td>3:30</td>
         </tr>
         <tr class="bg-dark">
@@ -95,7 +128,7 @@
           <td><button class="button">+</button></td>
           <td>Lough till you cry</td>
           <td>Faydee</td>
-          <td>28,221</td>
+          <td>24</td>
           <td>3:56</td>
         </tr>
         <tr>
@@ -107,7 +140,7 @@
             </td>
             <td>I don´t know</td>
             <td>Deejay fly</td>
-            <td>21,528</td>
+            <td>12</td>
             <td>2:26</td>
         </tr>
     </table>
@@ -144,15 +177,15 @@
     </footer>-->
 <footer class="container-fluid">
    
-    <div class="row text-white">
+    <div class="row text-white align-items-center justify-content-center hidden-md-down">
 
-     <div class="col-8">
+     <div class="col-sm-12 col-lg-7 d-none  d-lg-block">
         <p>Diseñado en Uruguay</p>
     </div>
 
-      <div class="col-4">
-         <div><p>Powered by</p>
-        <h1><img src="images/LogoSoloBlancoFondoTransparente.png">Termoify</h1>
+      <div class="col-sm-12 col-md-12 col-lg-5">
+         <div class="d-flex aling-item-end justify-content-end aling-item-md-center"><p>Powered by</p>
+        <h1><img src="images/logos">Termoify</h1>
       </div>
 
     </div>

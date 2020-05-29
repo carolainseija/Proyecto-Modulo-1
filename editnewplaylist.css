@@ -1,11 +1,12 @@
 div[class|="col"] {
     background-color: black;
-    border: 1px blue;
-    border-style: inset;
+   
+  
 }
 .container {
-    background-color: black;
+    
 }
+
 table {
     width: 858px;
     height: 285px;
@@ -14,6 +15,10 @@ table {
   color: #FFFFFF;;
  
 }
+/*
+.header__mobil {
+    background-color: chartreuse;
+}*/
 
 .bi bi-hand-thumbs-up {
     border: 1px solid #1ED760;
@@ -33,3 +38,5 @@ table {
 .container_main {
      background-color: black;
  }
+
+ 
