@@ -14,3 +14,22 @@ table {
   color: #FFFFFF;;
  
 }
+
+.bi bi-hand-thumbs-up {
+    border: 1px solid #1ED760;
+ }
+ 
+ footer {
+    width: 1152px;
+    height: 88px;
+    left: 0px;
+    top: 612px;
+    background-color: black;
+ }
+
+ foot {
+     height: 88px;
+ }
+.container_main {
+     background-color: black;
+ }
