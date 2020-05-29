@@ -1,5 +1,16 @@
 div[class|="col"] {
-    background-color: red;
+    background-color: black;
     border: 1px blue;
     border-style: inset;
+}
+.container {
+    background-color: black;
+}
+table {
+    width: 858px;
+    height: 285px;
+  border-collapse: collapse;
+  background-color:  #000000;
+  color: #FFFFFF;;
+ 
 }
