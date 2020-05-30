@@ -1,14 +1,154 @@
-.bg-main {
+
+.bg-image {
+    position: relative;
+    background-image: url("Images/Latin_Festival_-_2017-06-09_-_Angelito_Jusay_\(8\)\ 1.png"); /* The image used */
+    background-color: #cccccc; /* Used if the image is unavailable */
+    height: 529px;
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    background-origin: content-box;
+    z-index: -1;
+    overflow-x: hidden;
+}
+.sub-main-conteiner {
+    z-index: 1;
+}
+.overlay {
+    position: relative;
+    height: 529px;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    z-index: -1;
+}
+a:hover {
+    color: rgb(15, 170, 62) !important;
+    text-decoration: none !important;
+}
+.main-input-conteiner {
+    position: relative;
+    z-index: 1;
+}
+.home-main-input {
+    position: relative;
+    width: 738px;
+    height: 57px;
+    
+}
+.main-home-h1 {
+    color: white;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 50px !important; 
+    line-height: 61px;
+    
+}
+.home-main-text {
+    width: 797px;
+  
+}
+.button-green {
+    position: relative;
+    border-radius: 33px;
+    background-color:#1ED760 ;
+    width: 348px;
+    height: 57px;
+}
+.input-search {
+    position: relative;
+    height: 57px !important;
+    box-sizing: border-box;
+    font-size: 16px;
+    background-color: #FFFFFF;
+    background-image: url(Images/1.jpg);
+    background-size: 20px;
+    background-position: 10px 18px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+   
+    
+}
+
+.input-search::-webkit-input-placeholder {
+    position:relative;
+    left: 25px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 24px;
+}
+.input-search:focus {
+    background: white;
+    background-image: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* body {
     background-size:cover;
-    background-repeat: no-repeat,repeat;
+    background-repeat: no-repeat;
     margin:0%;
     padding: 0;
     overflow-x: hidden;
-    z-index: -1;
 }
-.bg-img {
+.bg-main {
+    position: absolute;
     width: 100%;
+    height: 25%;
+    background-attachment: fixed;
 }
+
 
 .bg-cover-main {
     filter: brightness(0.4);
@@ -16,19 +156,8 @@
     height: 100%;
     position: absolute; 
     background-attachment: fixed;
-    z-index: -1;
 }
-.header-dark-text {
-    color: white;
-    text-decoration: none;
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 20px;
-    line-height: 24px;
-    margin-right: 40px;
-}
-.main-home-conteiner {
+.main-input-conteiner {
     margin-top: 100px;
 }
 
@@ -87,4 +216,4 @@ a:hover {
 .home-main-input {
     width: 738px;
     height: 57px;
-}
+} */
