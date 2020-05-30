@@ -93,10 +93,7 @@
      color: #FFFFFF;
    }
  
-   footer {
-     background-color: black;
-     
-   }
+   
    .button {
 background-color: #4CAF50;
 border-radius: 100%;
@@ -119,3 +116,12 @@ color: #FFFFFF;
   
   border: 1px solid rgba(255, 255, 255, 0.85);
  }
+
+ footer {
+  width: 1152px;
+  height: 88px;
+  left: 0px;
+  top: 612px;
+  background: #000000;
+  font-family: 'Montserrat';
+}
