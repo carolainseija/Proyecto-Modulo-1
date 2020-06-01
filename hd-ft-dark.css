@@ -1,19 +1,42 @@
- .header-dark {
-    position: absolute;
-    margin-bottom:0px;
+.home-header {
     background-color: black;
-    z-index: 1;
+    color: white;
 }
-.header--img {
-    margin-right: 12px;
-    margin-bottom: 5px;
-    margin-left: 60px;
-    z-index: 1;
+.home-footer {
+    background-color: black;
+    color: white;
+} 
+.home-header a {
+    color: white;
+    text-decoration: white;
 }
+.home-header a:hover {
+    color: rgb(15, 170, 62) !important;
+    text-decoration: none !important;
+}
+.home-footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+.logo {
+    margin-top: 50px;
+}
+
+
+
+
+/* .header-dark {
+    background-color: black;
+}
+
 .header-dark-h1 {
     font-family: Righteous;
     color: white;
-    z-index: 1;
+    
 }
 .header-dark-text {
     color: white;
@@ -23,10 +46,10 @@
     font-weight: normal;
     font-size: 20px;
     line-height: 24px;
-    margin-right: 40px;
-}
+    
+} */
 
-.footer-home {
+/* .footer-home {
     position: absolute;
     margin-top: 0;
     margin-bottom: 0px;
@@ -37,5 +60,30 @@
 .lg-footer {
     width: 111px;
     height: 67px;
-    
+} */
+
+@media (max-width: 576px) {
+    .first:after {
+        content: 'Extra small';
+    }
+}
+@media (min-width: 576px) {
+    .first:after {
+        content: 'Small';
+    }
+}
+@media (min-width: 768px) {
+    .first:after {
+        content: 'Medium';
+    }
+}
+@media (min-width: 992px) {
+    .first:after {
+        content: 'Large';
+    }
+}
+@media (min-width: 1200px) {
+    .first:after {
+        content: 'Extra large';
+    }
 }
