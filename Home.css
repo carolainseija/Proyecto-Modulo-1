@@ -66,6 +66,8 @@
 }
 .button-mobile-green {
     margin-top: 92px;
+    text-decoration: none;
+    color:white;
     background-color:#1ED760;
     width: 379px;
     height: 48px;

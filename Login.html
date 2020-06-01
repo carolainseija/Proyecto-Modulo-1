@@ -3,58 +3,80 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Termoify-Login</title>
+    <title>Termoify - Login</title>
     <link rel="stylesheet" href="login.css">
     <link rel="stylesheet" href="hd-ft-light.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
 </head>
 <body>
+    <img class="bg-mobile d-md-none d-block" src="images/Latin_Festival_-_2017-06-09_-_Angelito_Jusay_(8) 1.png">
 <div class="conteiner">
-    <div class="row">
+    <div class="row d-flex justify-content-center">
         <header class="conteiner-fluid text-center header-light col-lg-12 col-md-12 col-sm-12">
             <div class="mt-2 mb-2">
-                <h1 class="font-weight-bold"><img class="header--img" src="Images/LogoSoloBlancoFondoTransparente.png">Termoify</h1>
+                <h1 class="font-weight-bold">
+                    <img class="header--img d-none d-md-inline" src="images/LogoSoloNegroFondoTransparente.png">
+                    Termoify
+                </h1>
             </div>
             <hr>
         </header>
-        <div class="text-center col-lg-12 col-md-12 col-sm-12 ">
-            <h4 class="font-weight-bold login-h4">Para continuar, inicia sesión</h4>
-        </div>
-
+        
             <!-- form-login -->
-
-        <div class="row d-flex align-items-center flex-column mt-4 col-lg-12 col-md-12 col-sm-12">
-            <form class="flex login-form mb-3">
-                <div class="p-2 input-group-lg">
-                    <input type="email" id="login-email" class="form-control rounded-pill input-login" placeholder="Correo electronico o    Nombre de Usuario">
-                </div>    
-
-                <div class="p-2 input-group-lg col-lg-12">
-                    <input type="password" id="login-password" class="form-control rounded-pill input-login" name="pwd" minlength="8"   placeholder="Contraseña">
-                </div>
-
-                <div class="d-flex justify-content-between mt-3 mb-4 col-lg-12">
-                    <div class="form-checkbox d-flex justify-content-center align-items-center">
-                        <input class="form-checkbox-input login-checkbox" type="checkbox" value="" id="defaultCheck1">
-                        <label class="form-checkbox-label" for="defaultCheck1">
-                            Recuérdame
-                        </label>
+        
+            <div class="justify-content-center flex-column mt-4 input-mobile">
+                <form class="login-form mb-3 pt-md-1 pt-xs-0">
+                    <div class="text-center col-lg-12 col-md-12 col-sm-12">
+                        <h4 class="font-weight-bold login-h4 pt-3">Para continuar, inicia sesión</h4>
+                    </div>
+                    <!-- INPUT-EMAIL -->
+                    <div class="p-2 input-group-lg pl-4 pl-md-0 pr-4 pr-md-0">
+                        <input type="email" id="login-email" class="form-control rounded-pill input-login" placeholder="Correo electronico o Nombre de Usuario">
                     </div>    
-                    <button class="btn btn-success text-uppercase button-green">Iniciar Sesión</button>
-                </div>
-                <div class="text-center mb-3 mt-4">
-                    <a href="#" class="login-psw-ask mt-4">¿Has olvidado la contraseña?</a>
-                </div>
-            </form>
-            <hr id="login--hr" class="d-flex justify-content-center align-items-center">
-        </div>
-        <div class="d-flex flex-column align-items-center col-lg-12">
-            <div class="text-center mt-3 mb-1">
-                <a class="login-account-ask my-5" href="#">¿No tienes cuenta?</a>
+                    <!-- INPUT PASSWORD -->
+                    <div class="p-2 input-group-lg col-lg-12 pl-4 pl-md-0 pr-4 pr-md-0">
+                        <input type="password" id="login-password" class="form-control rounded-pill input-login" name="pwd" minlength="8" placeholder="Contraseña">
+                    </div>
+
+                    <div class="d-flex justify-content-between mt-3 mb-4 flex-column flex-md-row pl-4 pl-md-0 pr-4 pr-md-0">
+                        <div class="form-checkbox d-flex align-items-center mb-4 mb-md-0">
+                            <input class="form-checkbox-input login-checkbox" type="checkbox" value="" id="defaultCheck1">
+                            <label class="form-checkbox-label" for="defaultCheck1">
+                                Recuérdame
+                            </label>
+                        </div>    
+                        <button class="btn btn-success text-uppercase button-green col-sm-12 col-md-6">Iniciar Sesión</button>
+                    </div>
+                    <div class="text-center mb-3 mt-4">
+                        <a href="#" class="login-psw-ask mt-4">¿Has olvidado la contraseña?</a>
+                    </div>
+                    <hr id="login--hr" class="d-flex justify-content-center align-items-center d-none d-md-block">
+                    <div class="d-flex flex-column align-items-center col-lg-12">
+                        <div class="text-center mt-3 mb-1">
+                            <a class="login-account-ask my-5" href="Register.html">¿No tienes cuenta?</a>
+                            <a href="#" id="register--buttom" class="btn btn-light btn-lg active button-white d-flex align-items-center justify-content-center mt-3 rounded-pill border border-dark" role="button" aria-pressed="true">
+                                REGISTRATE
+                            </a>
+                        </div>
+                    </div>
+                </form>
             </div>
-                <a href="#" id="register--buttom" class="btn btn-light btn-lg active button-white d-flex align-items-center     justify-content-center mt-3 rounded-pill border border-dark" role="button" aria-pressed="true">
-                    REGISTRATE
-                </a>
+
+            <!-- FOOTER MOBILE -->
+
+            <div class="d-block d-md-none d-flex align-items-center justify-content-center footer-mobile col-12">
+                <p style="
+                    color: white; 
+                    font-family: Montserrat;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 20px;
+                    line-height: 24px;" 
+                    class="pt-3 mr-2">
+                    Powered by
+                </p>
+                <img src="Images/Spotify Logo.png">
+            </div>
         </div>
     </div>
 </div>
