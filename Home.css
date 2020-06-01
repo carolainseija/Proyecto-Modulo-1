@@ -1,93 +1,96 @@
+.bg-img {
+    filter: brightness(0.4);
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    z-index: -1;
+    /* Preserve aspet ratio */
+    min-width: 100%;
+    min-height: 100%;
+}
 
-.bg-image {
-    position: relative;
-    background-image: url("Images/Latin_Festival_-_2017-06-09_-_Angelito_Jusay_\(8\)\ 1.png"); /* The image used */
-    background-color: #cccccc; /* Used if the image is unavailable */
-    height: 529px;
-    background-position: center; /* Center the image */
-    background-repeat: no-repeat; /* Do not repeat the image */
-    background-size: cover; /* Resize the background image to cover the entire container */
-    background-origin: content-box;
-    z-index: -1;
-    overflow-x: hidden;
+.text-container {
+    width: 797px;
 }
-.sub-main-conteiner {
-    z-index: 1;
-}
-.overlay {
-    position: relative;
-    height: 529px;
-    width: 100%;
-    background: rgba(0, 0, 0, 0.8);
+.input-text {
     color: white;
-    z-index: -1;
-}
-a:hover {
-    color: rgb(15, 170, 62) !important;
-    text-decoration: none !important;
-}
-.main-input-conteiner {
-    position: relative;
-    z-index: 1;
-}
-.home-main-input {
-    position: relative;
-    width: 738px;
-    height: 57px;
-    
-}
-.main-home-h1 {
-    color: white;
+    font-family: url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100&display=swap');
     font-family: Montserrat;
     font-style: normal;
     font-weight: 800;
-    font-size: 50px !important; 
+    font-size: 5vw !important; 
     line-height: 61px;
-    
 }
-.home-main-text {
-    width: 797px;
-  
+.input-form {
+  height: 57px;
+  width: 738px;
+  border:none;
+  padding-left: 24px;
 }
-.button-green {
-    position: relative;
-    border-radius: 33px;
-    background-color:#1ED760 ;
-    width: 348px;
-    height: 57px;
-}
-.input-search {
-    position: relative;
-    height: 57px !important;
-    box-sizing: border-box;
-    font-size: 16px;
-    background-color: #FFFFFF;
-    background-image: url(Images/1.jpg);
+
+.input-form::placeholder {
+    padding-left: 2.9em;
+    background-image: url('Images/1.jpg');
     background-size: 20px;
-    background-position: 10px 18px; 
+    background-position: 20px 0px; 
     background-repeat: no-repeat;
-    padding: 12px 20px 12px 40px;
     -webkit-transition: width 0.4s ease-in-out;
     transition: width 0.4s ease-in-out;
-   
-    
+}
+.input-form:focus {
+    background-image: none;
+    border: none;
 }
 
-.input-search::-webkit-input-placeholder {
-    position:relative;
-    left: 25px;
+.button-green {
+    background-color:#1ED760;
+    width: 348px;
+    height: 57px;
+    text-transform: uppercase;
     font-family: Montserrat;
     font-style: normal;
-    font-weight: normal;
+    font-weight: bold;
     font-size: 22px;
-    line-height: 24px;
+    line-height: 27px;
 }
-.input-search:focus {
-    background: white;
-    background-image: none;
+.home-text-mobile {
+    position: absolute;
+    width: 317px;
+    height: 30px;
+    color: white; 
+    font-family: url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100&display=swap')
+    font-style normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 30px;
 }
+.button-mobile-green {
+    margin-top: 92px;
+    background-color:#1ED760;
+    width: 379px;
+    height: 48px;
+    text-transform: uppercase;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 27px;
+}   
 
-
+.rgt-mobile {
+    color: white;
+    font-family: Montserrat;
+    font-style: normal;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+}
+.rgt-mobile:hover {
+    color: rgb(15, 170, 62);
+    text-decoration: none;
+}
 
 
 

@@ -10,50 +10,53 @@
 </head>
 <body>
 <div class="conteiner">
-        <header class="conteiner-fluid text-center header-light">
+    <div class="row">
+        <header class="conteiner-fluid text-center header-light col-lg-12 col-md-12 col-sm-12">
             <div class="mt-2 mb-2">
                 <h1 class="font-weight-bold"><img class="header--img" src="Images/LogoSoloBlancoFondoTransparente.png">Termoify</h1>
             </div>
             <hr>
         </header>
-        <div class="text-center">
+        <div class="text-center col-lg-12 col-md-12 col-sm-12 ">
             <h4 class="font-weight-bold login-h4">Para continuar, inicia sesión</h4>
         </div>
 
-        <!-- form-login -->
+            <!-- form-login -->
 
-    <div class="d-flex align-items-center flex-column mt-4">
-        <form class="flex login-form mb-3">
-            <div class="p-2 input-group-lg">
-                <input type="email" id="login-email" class="form-control rounded-pill input-login" placeholder="Correo electronico o Nombre de Usuario">
-            </div>    
-            
-            <div class="p-2 input-group-lg">
-                <input type="password" id="login-password" class="form-control rounded-pill input-login" name="pwd" minlength="8" placeholder="Contraseña">
-            </div>
-
-            <div class="d-flex justify-content-between mt-3 mb-4">
-                <div class="form-checkbox d-flex justify-content-center align-items-center">
-                    <input class="form-checkbox-input login-checkbox" type="checkbox" value="" id="defaultCheck1">
-                    <label class="form-checkbox-label" for="defaultCheck1">
-                        Recuérdame
-                    </label>
+        <div class="row d-flex align-items-center flex-column mt-4 col-lg-12 col-md-12 col-sm-12">
+            <form class="flex login-form mb-3">
+                <div class="p-2 input-group-lg">
+                    <input type="email" id="login-email" class="form-control rounded-pill input-login" placeholder="Correo electronico o    Nombre de Usuario">
                 </div>    
-                <button class="btn btn-success text-uppercase button-green">Iniciar Sesión</button>
-            </div>
-            <div class="text-center mb-3 mt-4">
-                <a href="#" class="login-psw-ask mt-4">¿Has olvidado la contraseña?</a>
-            </div>
-        </form>
-        <hr id="login--hr" class="d-flex justify-content-center align-items-center">
-    </div>
-    <div class="d-flex flex-column align-items-center">
-        <div class="text-center mt-3 mb-1">
-            <a class="login-account-ask my-5" href="#">¿No tienes cuenta?</a>
+
+                <div class="p-2 input-group-lg col-lg-12">
+                    <input type="password" id="login-password" class="form-control rounded-pill input-login" name="pwd" minlength="8"   placeholder="Contraseña">
+                </div>
+
+                <div class="d-flex justify-content-between mt-3 mb-4 col-lg-12">
+                    <div class="form-checkbox d-flex justify-content-center align-items-center">
+                        <input class="form-checkbox-input login-checkbox" type="checkbox" value="" id="defaultCheck1">
+                        <label class="form-checkbox-label" for="defaultCheck1">
+                            Recuérdame
+                        </label>
+                    </div>    
+                    <button class="btn btn-success text-uppercase button-green">Iniciar Sesión</button>
+                </div>
+                <div class="text-center mb-3 mt-4">
+                    <a href="#" class="login-psw-ask mt-4">¿Has olvidado la contraseña?</a>
+                </div>
+            </form>
+            <hr id="login--hr" class="d-flex justify-content-center align-items-center">
         </div>
-            <a href="#" id="register--buttom" class="btn btn-light btn-lg active button-white d-flex align-items-center justify-content-center mt-3 rounded-pill border border-dark" role="button" aria-pressed="true">REGISTRATE</a>
+        <div class="d-flex flex-column align-items-center col-lg-12">
+            <div class="text-center mt-3 mb-1">
+                <a class="login-account-ask my-5" href="#">¿No tienes cuenta?</a>
+            </div>
+                <a href="#" id="register--buttom" class="btn btn-light btn-lg active button-white d-flex align-items-center     justify-content-center mt-3 rounded-pill border border-dark" role="button" aria-pressed="true">
+                    REGISTRATE
+                </a>
+        </div>
     </div>
-    
 </div>
 </body>
 </html>
