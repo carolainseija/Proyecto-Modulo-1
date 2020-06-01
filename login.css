@@ -1,6 +1,6 @@
 /* LOGIN - MOBILE */
 
-.bg-mobile {
+.bg-mobile-lg {
     filter: brightness(0.4)!important;
     position: fixed; 
     top: 0; 
@@ -58,9 +58,9 @@
     width: 204px; 
     height: 38px;
     background: white !important;
-    border: solid 8px black !important;
+    border: solid 8px black;
 }
-#register--buttom {
+#register--buttom{
     text-decoration: none;
     color:black;
     font-family: Montserrat;
@@ -68,7 +68,14 @@
     font-weight: bold;
     font-size: 16px;
     line-height: 20px;
-    
+}
+
+@media (max-width: 768px) {
+
+    #register--buttom  {
+        
+        border: white !important;
+    }
 }
 
 .login-psw-ask {
@@ -77,16 +84,15 @@
     font-family: Montserrat;
     font-style: normal;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 5vh;
     line-height: 22px;
 }
 #login--hr {
     width: 527px;
 }
 .login-account-ask {
-    width: 185px;
-    height: 16px;
-    text-decoration: none;
+    
+    
     color: black;
     font-family: Montserrat;
     font-style: normal;
