@@ -26,8 +26,22 @@
      transition: width 0.4s ease-in-out;
      top: 181px;
 
- 
  } 
+ .text-search {
+  width: 30px;
+  
+  border-radius: 100%;
+  background-color: #FFFFFF;
+  background-image: url(Images/1.jpg);
+  background-position: center;
+  background-size: 20px;
+  
+  background-repeat: no-repeat;
+ 
+  
+  
+
+ }
  
   h1 {
     left: 114px;
@@ -56,13 +70,7 @@
    }
    
  
-   table {
-       width: 858px;
-       height: 285px;
-     border-collapse: collapse;
-     background-color:  #000000;
-     color: #FFFFFF;;
-   }
+  
    
    /*
    th, td {
@@ -124,4 +132,22 @@ color: #FFFFFF;
   top: 612px;
   background: #000000;
   font-family: 'Montserrat';
+  margin-top: 37px;
+}
+
+.table {
+  width: 858;
+  height: 285px;
+  
+  color: #FFFFFF;
+  padding-left: 146px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  border-color: black
+ 
+
+
 }
