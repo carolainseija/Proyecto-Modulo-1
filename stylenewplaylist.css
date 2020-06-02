@@ -49,13 +49,6 @@ h1 {
     line-height: 40px;
 }
 /* TABLE */ 
-#customers td, #customers th {
-    border: 1px solid  black;
-    padding: 8px;
-}
-th, td {
-    border-bottom: 1px solid black;
-}
 .table {
     height: 285px;
     color: #FFFFFF;
