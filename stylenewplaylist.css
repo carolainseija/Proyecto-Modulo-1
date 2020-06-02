@@ -1,7 +1,4 @@
-/*div[class|="col"] {
-  border-color: blue;
-  border-style: double;
-}*/
+
 
 * {
   margin: 0px;
@@ -71,6 +68,7 @@
  .expand {
    width: 29.17px;
    border: 1px solid #FFFFFF;
+   margin: 10px;
  }
  .showmore {
      height: 22.09px;
@@ -114,7 +112,10 @@
   margin-top: 37px;
   border-top:  1px solid rgba(101, 101, 101, 0.33);
 }
-
+th, td {
+  
+  border-bottom: 1px solid black;
+}
 .table {
   height: 285px;
   color: #FFFFFF;
@@ -124,7 +125,31 @@
   font-weight: 500;
   font-size: 12px;
   line-height: 16px;
+  color:green ;
 }
+.bg-dark {
+  border-bottom: 1px solid black;
+
+}
+
+
+.mobil_img {
+  width: 50px;
+  height: 50px;
+  background-image: url(images/search\ \(1\).png);
+  background-repeat: no-repeat;
+
+}
+
+.input_mobile {
+  width: 30px;
+  border-color: #1ED760;;
+  background-color: #1ED760;;
+  background-image: url(images/search\ \(1\).png);
+  background-repeat: no-repeat;
+  background-position:center;
+}
+
   /*
    th, td {
      border-bottom: 1px solid #000000;;

@@ -64,3 +64,12 @@ footer {
    height: 30px;
    padding-left: 66px;
 }
+
+.input_mobile {
+    width: 30px;
+    border-color: #1ED760;;
+    background-color: #1ED760;;
+    background-image: url(images/search\ \(1\).png);
+    background-repeat: no-repeat;
+    background-position: center;
+  }
