@@ -1,4 +1,61 @@
+.bg-img {
+    filter: brightness(0.4);
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    z-index: -1;
+    /* Preserve aspet ratio */
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.logo-mobile {
+    width: 50px;
+}
+.text-mobile {
+    color: white;
+}
+
+.input-playlist-mobile {
+    width: 379px;
+    height: 62px;
+    border: white 1px solid;
+}
+.button-green-mobile{
+    background-color:#1ED760 !important;
+    width: 379px;
+    height: 62px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 27px;
+    /* identical to box height */
+    text-transform: uppercase;
+    color: white !important;
+}
+.a-mobile {
+    color: white;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.a-mobile:hover {
+    color: rgb(15, 170, 62);
+    text-decoration: none;
+}
+.footer-mobile {
+    bottom: 0px;
+    width: 100%;
+}
 .bg-main {
+    background-color: black;
+}
+.main-container {
     background-color: black;
 }
 .search-header {
@@ -6,6 +63,7 @@
     border-bottom: 1px solid rgba(101, 101, 101, 0.33);
 } 
 .search-header a {
+    background-color: black;
     color: white;
     text-decoration: white;
 }
@@ -36,30 +94,30 @@
     font-size: 20px;
     line-height: 22px;
 }
-  .card-container{
-      background-color: black !important;
-      border: 5px solid black;
-      border-collapse: separate;
-      border-radius: 3px;
-  }
-  .card-text {
-    font-family: Montserrat;
-    font-style: normal;
-  }
-  .artist-text{
-      font-weight: 500;
-      font-size: 14px;
-      color:white;
-      mix-blend-mode: normal;
-  }
-  .how-song {
-      color: white;
-      opacity: 0.5;
-  }
-  .card-img-top{
+.card-container{
+    background-color: black !important;
+    border: 5px solid black;
+    border-collapse: separate;
+    border-radius: 3px;
+}
+.card-text {
+  font-family: Montserrat;
+  font-style: normal;
+}
+.artist-text{
+    font-weight: 500;
+    font-size: 18px;
+    color:white;
+    mix-blend-mode: normal;
+}
+.how-song {
+    color: white;
+    opacity: 0.5;
+}
+.card-img-top{
       transition: .5s ease;
-      backface-visibility: hidden;
-  }   
+      backface-visibility: hidden;  
+}   
 .search-footer {
     bottom: 0;
     width: 100%;
