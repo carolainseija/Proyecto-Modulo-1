@@ -1,5 +1,5 @@
 /* LOGIN - MOBILE */
-.bg-mobile-lg {
+.bg-mobile {
     filter: brightness(0.4)!important;
     position: fixed; 
     top: 0; 
@@ -23,12 +23,12 @@
     width: 527px;
 }
 
-.form-checkbox-input {
+.form--checkbox__input {
     width: 29.17px;
     height: 29.17px;
     margin-right: 15.83px;
 }
-.form-checkbox-label {
+.form--checkbox__label {
     color: gray;
     font-family: Montserrat;
     font-style: normal;
@@ -85,7 +85,7 @@
     font-size: 3vh;
     line-height: 22px;
 }
-#login--hr {
+#hr {
     width: 527px;
 }
 .login-account-ask {
