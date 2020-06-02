@@ -1,3 +1,4 @@
+/* BAGROUND MOBILE */ 
 .bg-mobile-rgt {
     filter: brightness(0.4)!important;
     position: fixed; 
@@ -8,6 +9,7 @@
     min-width: 100%;
     min-height: 100%;
 }
+/* FOMR */ 
 .register-form {
     background-color: white;
     border-radius: 15px;
@@ -78,6 +80,7 @@ option {
 .hr-line {
     width: 527px;
 }
+/* AFTER FORM */
 .register-account-ask {
     width: 185px;
     height: 16px;

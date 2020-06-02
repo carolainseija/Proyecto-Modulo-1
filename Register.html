@@ -12,8 +12,10 @@
     <link rel="stylesheet" href="register.css">
   </head>
   <body>
+    <!-- BACKGROUND MOBILE -->
     <img class="bg-mobile-rgt d-md-none d-block" src="images/Latin_Festival_-_2017-06-09_-_Angelito_Jusay_(8) 1.png">
-  <div class="conteiner">
+    <div class="conteiner">
+      <!-- HEADER -->
       <header class="conteiner-fluid text-center header-light">
         <div class="mt-2 mb-2">
           <h1 class="font-weight-bold">
@@ -25,9 +27,7 @@
         </div>
         <hr class="d-none d-md-block">
       </header>
-
-    <!-- FORM REGISTER -->
-
+      <!-- FORM REGISTER -->
       <div class="d-flex flex-column align-items-center justify-content-center text-center">
           <form class="register-form mb-4 mb-md-0">
             <div class="text-center">
@@ -69,6 +69,7 @@
                   FECHA DE NACIMIENTO
                 </label>
                 <div class="d-inline-flex justify-content-left align-items-end justify-content-between born-register mb-2"> 
+                  <!-- DAY -->
                     <select class="btn rounded-pill born-register-select align-items-left select-day ml-4 ml-md-0" name="SELECTDay">
                       <option>Día</option>
                       <option value="1">1</option>
@@ -103,7 +104,7 @@
                       <option value="30">30</option>
                       <option value="31">31</option>
                     </select>
-                  
+                    <!-- MONTH -->
                     <select class="btn rounded-pill born-register-select align-items-left select-month ml-4 ml-md-0 mr-4 mr-md-0" placeholder="Mes" name="SELECTMonth">
                       <option>Mes</option>
                       <option value="January">January</option>
@@ -119,7 +120,7 @@
                       <option value="November">November</option>
                       <option value="December">December</option>
                     </select>
-                  
+                    <!-- YEAR -->
                     <select class="btn rounded-pill born-register-select align-items-left select-year mr-4 mr-md-0" name="SELECTYear">
                       <option>Año</option>
                       <option value="1993">2019</option>
@@ -151,7 +152,6 @@
                 </div>
             </div>
             <div class="d-flex flex-row align-items-center justify-content-left mt-5 mb-4 ml-4 ml-md-0 mr-4 mr-md-0">
-
               <input
                 class="d-inline-flex mr-2 input-gender"
                 type="radio"
@@ -160,7 +160,6 @@
                 value="option1"
               />
               <label class="form-check-label mr-3 input-gender-label" for="inlineRadio1">Masculino</label>
-
               <input
                 class="d-inline-flex mr-2 ml-4 input-gender"
                 type="radio"
@@ -169,7 +168,6 @@
                 value="option2"
               />
               <label class="form-check-label mr-3 input-gender-label" for="inlineRadio2">Femenino</label>
-          
               <input
                 class="d-inline-flex ml-4 mr-2 input-gender"
                 type="radio"
@@ -178,17 +176,17 @@
                 value="option3"
               />
               <label class="form-check-label ml-1 input-gender-label" for="inlineRadio2">Otro</label>
-
             </div>
+            <!-- BUTTONS -->
             <div class="d-flex justify-content-center align-items-center ml-4 ml-md-0 mr-4 mr-md-0">
-                <a href="Login.html" class="btn btn-success text-uppercase button-green rounded-pill mt-4 mb-4 col-12 col-md-6"    style="font-family:Montserrat; font-size:18px;">REGISTRARSE</a>
+                <a href="Home.html" class="btn btn-success text-uppercase button-green rounded-pill mt-4 mb-4 col-12 col-md-6"    style="font-family:Montserrat; font-size:18px;">REGISTRARSE</a>
             </div>
             <hr class="hr-line d-none d-md-block">
             <div class="d-flex flex-column align-items-center">
               <div class="text-center mt-3 mb-1 d-none d-md-block">
-                  <a class="register-account-ask my-5" href="#" style="font-family:Montserrat; font-size: 18px;">¿Ya tienes cuenta?</a>
+                  <a class="register-account-ask my-5" href="Login.html" style="font-family:Montserrat; font-size: 18px;">¿Ya tienes cuenta?</a>
               </div>
-                  <a href="#" id="register--buttom" class="btn btn-light btn-lg button-white d-md-flex align-items-center justify-content-center mt-3 rounded-pill border border-dark d-none" role="button" aria-pressed="true"style="font-family:Montserrat; font-size: 16px;">INICIAR SESIÓN</a>
+                  <a href="Login.html" id="register--buttom" class="btn btn-light btn-lg button-white d-md-flex align-items-center justify-content-center mt-3 rounded-pill border border-dark d-none" role="button" aria-pressed="true"style="font-family:Montserrat; font-size: 16px;">INICIAR SESIÓN</a>
             </div>
             <div>
               <a href="Login.html" class="ask-acc-rgt d-block d-md-none pb-4 mb-3 "> 
@@ -197,7 +195,6 @@
             </div>
           </form> 
       </div>
-      
       <!-- FOOTER -->
       <footer class="conteiner-fluid d-none d-md-flex align-items-center justify-content-between footer-register">
             <p class="d-flex align-items-center ml-5 mt-2" style="font-family:Montserrat; font-size: 20px;">Diseñado en Uruguay</p>
@@ -207,5 +204,5 @@
           </div>
       </footer>
     </div>
-  </body>
+</body>
 </html>

@@ -11,174 +11,156 @@
 <!--font-family-->
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/custom.css">
-    <title>newplaylist</title>
+    <title>Termoify - New Playlist</title>
 </head>
-
-<div class="container-fluid">
-
-  
-  <body>  <!--HEADER responsive WEB-->
+<body>  
+  <div class="container-fluid">
+      <!--HEADER responsive WEB-->
         <header class="container-fluid_header d-none d-sm-none d-md-none d-lg-block">
               <div class="row">
-                       <div class="col-lg-11 text-white">
-                            <h1 class="d-flex justify-content-lg-start aling-items-lg-center">
-                                 <img class="header--img" src="Images/logo2.png"/>Termoify
-                            </h1>
-                       </div>     
-              
-       
-            
-              <div class="col-lg-1 mt-2">
-                   <a class="text-white text-decoration-none d-none d-lg-block hidden-md-down" href="Login.html">Usuario</a>
+                <div class="col-lg-11 text-white">
+                     <h1 class="d-flex justify-content-lg-start aling-items-lg-center">
+                          <img class="header--img" src="Images/logo2.png">
+                          Termoify
+                     </h1>
+                </div>     
+                <div class="col-lg-1 mt-2">
+                     <a class="text-white text-decoration-none d-none d-lg-block hidden-md-down" href="Login.html">Usuario</a>
+                </div>
               </div>
-            </DIV>
-         </header>
-        
-  
+        </header>
           <!--header para MOBIL-->
         <header class="container-fluid_header mobil">
                <div class="row bg d-lg-none">
                    <div class="col-12 d-flex justify-content-between aling-item-center text-white">
-
-                          <img  class="expand d-sm-block d-flex justify-content-sm-center aling-item-sm-center" src="images/expand_more.png"></a>
-
-                          <h1 class="d-flex justify-content-center justify-content-sm-center justify-content-md-center   aling-item-center aling-item-md-center">
-                            <img class="header--img"src="Images/logo2.png"/>Termoify
-                            </h1>
-
-                            <div class="d-flex justify-content-end aling-item-end">
-                              <input class="rounded-pill input_mobile" type="search" aria-label="Search">
-                            </div>
-                            
-                        </div>
-
+                      <img  class="expand d-sm-block d-flex justify-content-sm-center aling-item-sm-center" src="images/expand_more.png">
+                      <h1 class="d-flex justify-content-center justify-content-sm-center justify-content-md-center   aling-item-centealing-item-md-center">
+                        <img class="header--img"src="Images/logo2.png">
+                        Termoify
+                      </h1>
+                      <div class="d-flex justify-content-end aling-item-end">
+                        <input class="rounded-pill input_mobile" type="search" aria-label="Search">
+                      </div>         
                    </div>
-                
-
-
-         </header>
-  
-         
- <div class="text_center">
-       <div class="col-sm-12 col-md-12 col-lg-12 ">
-           <h1 class="d-none d-sm-none d-md-none d-lg-block text-center text-white">Baila sin parar</h1>
-           <h2 class="d-lg-none hidden-lg-down text-center text-white">NOMBRA TU PLAYLIST</h2>
-         </div>
- </div>  
-
-
-<div>
-     <div class="col-sm-12 col-md-12 col-lg-12 d-none d-sm-none d-md-none d-lg-block">
-         <form class="form-inline mb-4 d-flex align-items-center justify-content-center text-white">
-               <input class="text_search d-flex text-secundary border border-dark rounded-pill pl-lg-5" type="search" placeholder=" Buscar una canción" aria-label="Search">
-         </form>
-     </div>
-  
-      <p3 class="music col-lg-9 d-lg-flex d-none d-lg-block text-white aling-item-center justify-content-start">Canciones populares en tu zona</p3>
-</div> 
+                </div>
+        </header>
+          <!-- TITTLE TEXT -->
+        <div class="text_center">
+              <div class="col-sm-12 col-md-12 col-lg-12 ">
+                  <h1 class="d-none d-sm-none d-md-none d-lg-block text-center text-white">Baila sin parar</h1>
+                  <h2 class="d-lg-none hidden-lg-down text-center text-white">NOMBRA TU PLAYLIST</h2>
+                </div>
+        </div>  
+        <div>
+              <div class="col-sm-12 col-md-12 col-lg-12 d-none d-sm-none d-md-none d-lg-block">
+                 <form class="form-inline mb-4 d-flex align-items-center justify-content-center text-white">
+                       <input class="text_search d-flex text-secundary border border-dark rounded-pill pl-lg-5" type="search" placeholder=" Buscar una canción" aria-label="Search">
+                 </form>
+              </div>
+              <p3 class="music col-lg-9 d-lg-flex d-none d-lg-block text-white aling-item-center justify-content-start">
+                Canciones populares en tu zona
+              </p3>
+        </div> 
 
   <!--TABLA-->      
- <table class="container table text-white col-12 col-sm-12 col-md-12 col-lg-9">  
-  <tr>
-    <th class="d-none d-lg-block text-white" scope="col-sm-12 col-md-12 col-lg-12">#</th>
-    <th scope="col-sm-12 col-md-12 col-lg-12">agregar</th>
-    <th scope="col-sm-12 col-md-12 col-lg-12">Titulo</th>
-    <th scope="col-sm-12 col-md-12 col-lg-12">Autor</th>
-    <th scope="col-sm-12 col-md-12 col-lg-12">Reproducciones</th>
-    <th scope="col-sm-12 col-md-12 col-lg-12">Duracion</th>
-</tr>
-<tr class="bg-dark">
-    <th class="d-none d-lg-block" scope="row">1</th>
-    <td><button class="button">+</button></td>
-    <td>Dame dame</td>
-    <td>Claydee feat</td>
-    <td>39,566</td>
-    <td>4:21</td>
-  </tr>
-  <tr>
-    <th class="d-none d-lg-block" scope="row">2</th>
-    <td><button class="button">+</button></td>
-    <td>Kamelia</td>
-    <td>DDY Nunes</td>
-    <td>32,426</td>
-    <td>3:30</td>
-  </tr>
-  <tr class="bg-dark">
-    <th class="d-none d-lg-block" scope="row">3</th>
-    <td><button class="button">+</button></td>
-    <td>Lough till you cry</td>
-    <td>Faydee</td>
-    <td>28,221</td>
-    <td>3:56</td>
-  </tr>
-  <tr>
-    <th class="d-none d-lg-block" scope="row">4</th>
-    <td><button class="button">+</button></td>
-    <td>I don´t know</td>
-    <td>Deejay fly</td>
-    <td>21,528</td>
-    <td>2:26</td>
-    </tr>
-<!--se agregan las listas en el mobile-->
-  <tr class="bg-dark d-lg-none">
-    <th class="d-none d-lg-block" scope="row">1</th>
-    <td><button class="button">+</button></td>
-    <td>Dame dame</td>
-    <td>Claydee feat</td>
-    <td>39,566</td>
-    <td>4:21</td>
-  </tr>
-  <tr class="d-lg-none">
-      <th class="d-none d-lg-block" scope="row">2</th>
-      <td><button class="button">+</button></td>
-      <td>Kamelia</td>
-      <td>DDY Nunes</td>
-      <td>32,426</td>
-      <td>3:30</td>
-  </tr>
-   <tr class="bg-dark d-lg-none">
-      <th class="d-none d-lg-block" scope="row">3</th>
-      <td><button class="button">+</button></td>
-      <td>Lough till you cry</td>
-      <td>Faydee</td>
-      <td>28,221</td>
-      <td>3:56</td>
-   </tr>
-  <tr class="d-lg-none">
-      <th class="d-none d-lg-block" scope="row">4</th>
-      <td><button class="button">+</button></td>
-      <td>I don´t know</td>
-      <td>Deejay fly</td>
-      <td>21,528</td>
-      <td>2:26</td
-  </tr>
-</table>
-  
-
-<div class="container-fluid text-center">
-    <a  class="showmore text-decoration-none text-white" href="#">Show more</a>
-    <img src="images/Following.png">   
-</div>
-  
-  
-    
-  <!--Footer-->
-<footer class="container-fluid footer">
-      <div class="row text-white align-items-center justify-content-center hidden-md-down text_footer">
-             <div class="col-sm-12 col-lg-7 d-none  d-lg-block">
+        <table class="container table text-white col-12 col-sm-12 col-md-12 col-lg-9">  
+          <tr>
+            <th class="d-none d-lg-block text-white" scope="col-sm-12 col-md-12 col-lg-12">#</th>
+            <th scope="col-sm-12 col-md-12 col-lg-12">agregar</th>
+            <th scope="col-sm-12 col-md-12 col-lg-12">Titulo</th>
+            <th scope="col-sm-12 col-md-12 col-lg-12">Autor</th>
+            <th scope="col-sm-12 col-md-12 col-lg-12">Reproducciones</th>
+            <th scope="col-sm-12 col-md-12 col-lg-12">Duracion</th>
+          </tr>
+          <tr class="bg-dark">
+            <th class="d-none d-lg-block" scope="row">1</th>
+            <td><button class="button">+</button></td>
+            <td>Dame dame</td>
+            <td>Claydee feat</td>
+            <td>39,566</td>
+            <td>4:21</td>
+          </tr>
+          <tr>
+            <th class="d-none d-lg-block" scope="row">2</th>
+            <td><button class="button">+</button></td>
+            <td>Kamelia</td>
+            <td>DDY Nunes</td>
+            <td>32,426</td>
+            <td>3:30</td>
+          </tr>
+          <tr class="bg-dark">
+            <th class="d-none d-lg-block" scope="row">3</th>
+            <td><button class="button">+</button></td>
+            <td>Lough till you cry</td>
+            <td>Faydee</td>
+            <td>28,221</td>
+            <td>3:56</td>
+          </tr>
+          <tr>
+            <th class="d-none d-lg-block" scope="row">4</th>
+            <td><button class="button">+</button></td>
+            <td>I don´t know</td>
+            <td>Deejay fly</td>
+            <td>21,528</td>
+            <td>2:26</td>
+          </tr>
+           <!--se agregan las listas en el mobile-->
+          <tr class="bg-dark d-lg-none">
+            <th class="d-none d-lg-block" scope="row">1</th>
+            <td><button class="button">+</button></td>
+            <td>Dame dame</td>
+            <td>Claydee feat</td>
+            <td>39,566</td>
+            <td>4:21</td>
+          </tr>
+          <tr class="d-lg-none">
+              <th class="d-none d-lg-block" scope="row">2</th>
+              <td><button class="button">+</button></td>
+              <td>Kamelia</td>
+              <td>DDY Nunes</td>
+              <td>32,426</td>
+              <td>3:30</td>
+          </tr>
+          <tr class="bg-dark d-lg-none">
+              <th class="d-none d-lg-block" scope="row">3</th>
+              <td><button class="button">+</button></td>
+              <td>Lough till you cry</td>
+              <td>Faydee</td>
+              <td>28,221</td>
+              <td>3:56</td>
+          </tr>
+          <tr class="d-lg-none">
+              <th class="d-none d-lg-block" scope="row">4</th>
+              <td><button class="button">+</button></td>
+              <td>I don´t know</td>
+              <td>Deejay fly</td>
+              <td>21,528</td>
+              <td>2:26</td>
+          </tr>
+        </table>
+        <div class="container-fluid text-center">
+            <a  class="showmore text-decoration-none text-white" href="#">Show more</a>
+            <img src="images/Following.png">   
+        </div>
+          <!--Footer-->
+        <footer class="container-fluid footer">
+          <div class="row text-white align-items-center justify-content-center hidden-md-down text_footer">
+              <div class="col-sm-12 col-lg-7 d-none  d-lg-block">
                   <p4>Diseñado en Uruguay</p4>
               </div>
-  
               <div class="col-sm-12 col-md-12 col-lg-5">
-                   <div class="d-flex justify-content-center justify-content-sm-center justify-content-md-center justify-content-lg-end aling-item-center aling-item-md-center aling-items-lg-center"><p>Powered by</p>
-                          <h2><img src="images/logo termoify verde.jpg" alt="width="45px" height="41px">Termoify</h2>
+                   <div class="d-flex justify-content-center justify-content-sm-center justify-content-md-center justify-content-lg-end aling-item-center aling-item-md-center aling-items-lg-center">
+                      <p>
+                        Powered by
+                      </p>
+                      <h2>
+                        <img src="images/logo termoify verde.jpg" alt="width="45px" height="41px">
+                        Termoify
+                      </h2>
                    </div>
-               </div>
-      </div>
-</footer>
-  
+              </div>
+          </div>
+        </footer>
   </div>
-</div>
 </body>
-</div>
- </html>
+</html>
