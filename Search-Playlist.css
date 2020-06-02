@@ -1,0 +1,70 @@
+.bg-main {
+    background-color: black;
+}
+.search-header {
+    color: white;
+    border-bottom: 1px solid rgba(101, 101, 101, 0.33);
+} 
+.search-header a {
+    color: white;
+    text-decoration: white;
+}
+.search-header a:hover {
+    color: rgb(15, 170, 62) !important;
+    text-decoration: none !important;
+}
+.input-playlist {
+    width: 753px;
+    border: 1px solid white;
+}
+.button-green {
+    background-color:#1ED760 !important;
+    width: 348px;
+    height: 43px;
+    text-transform: uppercase;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 27px;
+}
+.tittle-list {
+    color: white; 
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 22px;
+}
+  .card-container{
+      background-color: black !important;
+      border: 5px solid black;
+      border-collapse: separate;
+      border-radius: 3px;
+  }
+  .card-text {
+    font-family: Montserrat;
+    font-style: normal;
+  }
+  .artist-text{
+      font-weight: 500;
+      font-size: 14px;
+      color:white;
+      mix-blend-mode: normal;
+  }
+  .how-song {
+      color: white;
+      opacity: 0.5;
+  }
+  .card-img-top{
+      transition: .5s ease;
+      backface-visibility: hidden;
+  }   
+.search-footer {
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    border-top: 1px solid rgba(101, 101, 101, 0.33);
+}

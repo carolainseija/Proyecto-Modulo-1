@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Termoify - Register</title>
     <link rel="stylesheet" href="hd-ft-light.css" />
     <link
       rel="stylesheet"
@@ -12,30 +12,35 @@
     <link rel="stylesheet" href="register.css">
   </head>
   <body>
+    <img class="bg-mobile-rgt d-md-none d-block" src="images/Latin_Festival_-_2017-06-09_-_Angelito_Jusay_(8) 1.png">
   <div class="conteiner">
       <header class="conteiner-fluid text-center header-light">
         <div class="mt-2 mb-2">
           <h1 class="font-weight-bold">
             <img
-              class="header--img"
-              src="Images/LogoSoloBlancoFondoTransparente.png"
+              class="header--img d-none d-md-inline"
+              src="Images/LogoSoloNegroFondoTransparente.png"
             />Termoify
           </h1>
         </div>
-        <hr />
+        <hr class="d-none d-md-block">
       </header>
 
-      <div class="text-center">
-        <h4 class="font-weight-bold login-h4">
-          Registrate con tu direccion de email
-        </h4>
-      </div>
+    <!-- FORM REGISTER -->
+
       <div class="d-flex flex-column align-items-center justify-content-center text-center">
-          <form class="register-form">
+          <form class="register-form mb-4 mb-md-0">
+            <div class="text-center">
+              <h4 class="font-weight-bold login-h4 pt-3 pt-md-0 pb-3 pb-md-0">
+                Registrate con tu direccion de email
+              </h4>
+            </div>
+            <!-- INPUT -->
+             <div class="ml-4 ml-md-0 mr-4 mr-md-0">
               <input
                 type="email"
                 id="email"
-                class="form-control mb-3 rounded-pill register-input"
+                class="form-control mb-3 rounded-pill register-input mt-2 mt-md-0"
                 placeholder="Correo electronico"
               />
               <input
@@ -58,91 +63,94 @@
                 placeholder="Nombre de usuario" 
                 class="form-control mb-3 rounded-pill register-input"
               />
-          <div class="d-flex flex-column born-register mb-3">
-              <label class="d-flex align-items-center" style="font-family: Montserrat; font-style: normal; font-weight: bold; font-size: 14px; line-height: 17px; text-transform: uppercase; color: rgba(31, 32, 65, 0.25);" for="SELECTDay">FECHA DE NACIMIENTO</label>
-              <div class="d-inline-flex justify-content-left align-items-end justify-content-between born-register mb-2"> 
-                  <select class="btn rounded-pill born-register-select align-items-left select-day" name="SELECTDay">
-                    <option>Día</option>
-                    <option value="1">1</option>
-                    <option value="2">2</option>
-                    <option value="3">3</option>
-                    <option value="4">4</option>
-                    <option value="5">5</option>
-                    <option value="6">6</option>
-                    <option value="7">7</option>
-                    <option value="8">8</option>
-                    <option value="9">9</option>
-                    <option value="10">10</option>
-                    <option value="11">11</option>
-                    <option value="12">12</option>
-                    <option value="13">13</option>
-                    <option value="14">14</option>
-                    <option value="15">15</option>
-                    <option value="16">16</option>
-                    <option value="17">17</option>
-                    <option value="18">18</option>
-                    <option value="19">19</option>
-                    <option value="20">20</option>
-                    <option value="21">21</option>
-                    <option value="22">22</option>
-                    <option value="23">23</option>
-                    <option value="24">24</option>
-                    <option value="25">25</option>
-                    <option value="26">26</option>
-                    <option value="27">27</option>
-                    <option value="28">28</option>
-                    <option value="29">29</option>
-                    <option value="30">30</option>
-                    <option value="31">31</option>
-                  </select>
-                
-                  <select class="btn rounded-pill born-register-select align-items-left select-month" placeholder="Mes" name="SELECTMonth">
-                    <option>Mes</option>
-                    <option value="January">January</option>
-                    <option value="Febuary">Febuary</option>
-                    <option value="March">March</option>
-                    <option value="April">April</option>
-                    <option value="May">May</option>
-                    <option value="June">June</option>
-                    <option value="July">July</option>
-                    <option value="August">August</option>
-                    <option value="September">September</option>
-                    <option value="October">October</option>
-                    <option value="November">November</option>
-                    <option value="December">December</option>
-                  </select>
-                
-                  <select class="btn rounded-pill born-register-select align-items-left select-year" name="SELECTYear">
-                    <option>Año</option>
-                    <option value="1993">2019</option>
-                    <option value="1992">2018</option>
-                    <option value="1991">2017</option>
-                    <option value="1990">2016</option>
-                    <option value="1989">2015</option>
-                    <option value="1988">2014</option>
-                    <option value="1987">2013</option>
-                    <option value="1986">2012</option>
-                    <option value="1985">2011</option>
-                    <option value="1984">2010</option>
-                    <option value="1983">2009</option>
-                    <option value="1982">2008</option>
-                    <option value="1981">2007</option>
-                    <option value="1980">2006</option>
-                    <option value="1979">2005</option>
-                    <option value="1978">2004</option>
-                    <option value="1977">2003</option>
-                    <option value="1976">2002</option>
-                    <option value="1975">2001</option>
-                    <option value="1974">2000</option>
-                    <option value="1973">1999</option>
-                    <option value="1972">1998</option>
-                    <option value="1971">1997</option>
-                    <option value="1970">1996</option>
-                    <option value="1969">1995</option>
-                  </select>
-              </div>
-          </div>
-          <div class="d-flex flex-row align-items-center justify-content-left mt-5 mb-3">
+            </div>
+              <div class="d-flex flex-column born-register mb-3">
+                <label class="d-flex align-items-center ml-4 ml-md-0" style="font-family: Montserrat; font-style: normal; font-weight: bold; font-size:  14px; line-height: 17px; text-transform: uppercase; color: rgba(31, 32, 65, 0.25);" for="SELECTDay">
+                  FECHA DE NACIMIENTO
+                </label>
+                <div class="d-inline-flex justify-content-left align-items-end justify-content-between born-register mb-2"> 
+                    <select class="btn rounded-pill born-register-select align-items-left select-day ml-4 ml-md-0" name="SELECTDay">
+                      <option>Día</option>
+                      <option value="1">1</option>
+                      <option value="2">2</option>
+                      <option value="3">3</option>
+                      <option value="4">4</option>
+                      <option value="5">5</option>
+                      <option value="6">6</option>
+                      <option value="7">7</option>
+                      <option value="8">8</option>
+                      <option value="9">9</option>
+                      <option value="10">10</option>
+                      <option value="11">11</option>
+                      <option value="12">12</option>
+                      <option value="13">13</option>
+                      <option value="14">14</option>
+                      <option value="15">15</option>
+                      <option value="16">16</option>
+                      <option value="17">17</option>
+                      <option value="18">18</option>
+                      <option value="19">19</option>
+                      <option value="20">20</option>
+                      <option value="21">21</option>
+                      <option value="22">22</option>
+                      <option value="23">23</option>
+                      <option value="24">24</option>
+                      <option value="25">25</option>
+                      <option value="26">26</option>
+                      <option value="27">27</option>
+                      <option value="28">28</option>
+                      <option value="29">29</option>
+                      <option value="30">30</option>
+                      <option value="31">31</option>
+                    </select>
+                  
+                    <select class="btn rounded-pill born-register-select align-items-left select-month ml-4 ml-md-0 mr-4 mr-md-0" placeholder="Mes" name="SELECTMonth">
+                      <option>Mes</option>
+                      <option value="January">January</option>
+                      <option value="Febuary">Febuary</option>
+                      <option value="March">March</option>
+                      <option value="April">April</option>
+                      <option value="May">May</option>
+                      <option value="June">June</option>
+                      <option value="July">July</option>
+                      <option value="August">August</option>
+                      <option value="September">September</option>
+                      <option value="October">October</option>
+                      <option value="November">November</option>
+                      <option value="December">December</option>
+                    </select>
+                  
+                    <select class="btn rounded-pill born-register-select align-items-left select-year mr-4 mr-md-0" name="SELECTYear">
+                      <option>Año</option>
+                      <option value="1993">2019</option>
+                      <option value="1992">2018</option>
+                      <option value="1991">2017</option>
+                      <option value="1990">2016</option>
+                      <option value="1989">2015</option>
+                      <option value="1988">2014</option>
+                      <option value="1987">2013</option>
+                      <option value="1986">2012</option>
+                      <option value="1985">2011</option>
+                      <option value="1984">2010</option>
+                      <option value="1983">2009</option>
+                      <option value="1982">2008</option>
+                      <option value="1981">2007</option>
+                      <option value="1980">2006</option>
+                      <option value="1979">2005</option>
+                      <option value="1978">2004</option>
+                      <option value="1977">2003</option>
+                      <option value="1976">2002</option>
+                      <option value="1975">2001</option>
+                      <option value="1974">2000</option>
+                      <option value="1973">1999</option>
+                      <option value="1972">1998</option>
+                      <option value="1971">1997</option>
+                      <option value="1970">1996</option>
+                      <option value="1969">1995</option>
+                    </select>
+                </div>
+            </div>
+            <div class="d-flex flex-row align-items-center justify-content-left mt-5 mb-4 ml-4 ml-md-0 mr-4 mr-md-0">
 
               <input
                 class="d-inline-flex mr-2 input-gender"
@@ -172,24 +180,31 @@
               <label class="form-check-label ml-1 input-gender-label" for="inlineRadio2">Otro</label>
 
             </div>
-              <button class="btn btn-success text-uppercase button-green rounded-pill mt-4 mb-4" style="font-family:Montserrat; font-size: 18px;">REGISTRARSE</button>
-          </form>
+            <div class="d-flex justify-content-center align-items-center ml-4 ml-md-0 mr-4 mr-md-0">
+                <a href="Login.html" class="btn btn-success text-uppercase button-green rounded-pill mt-4 mb-4 col-12 col-md-6"    style="font-family:Montserrat; font-size:18px;">REGISTRARSE</a>
+            </div>
+            <hr class="hr-line d-none d-md-block">
+            <div class="d-flex flex-column align-items-center">
+              <div class="text-center mt-3 mb-1 d-none d-md-block">
+                  <a class="register-account-ask my-5" href="#" style="font-family:Montserrat; font-size: 18px;">¿Ya tienes cuenta?</a>
+              </div>
+                  <a href="#" id="register--buttom" class="btn btn-light btn-lg button-white d-md-flex align-items-center justify-content-center mt-3 rounded-pill border border-dark d-none" role="button" aria-pressed="true"style="font-family:Montserrat; font-size: 16px;">INICIAR SESIÓN</a>
+            </div>
+            <div>
+              <a href="Login.html" class="ask-acc-rgt d-block d-md-none pb-4 mb-3 "> 
+                Inicia sesión con otra cuenta
+              </a>
+            </div>
+          </form> 
       </div>
-      <hr class="hr-line">
-
-      <div class="d-flex flex-column align-items-center">
-        <div class="text-center mt-3 mb-1">
-            <a class="register-account-ask my-5" href="#" style="font-family:Montserrat; font-size: 18px;">¿Ya tienes cuenta?</a>
-        </div>
-            <a href="#" id="register--buttom" class="btn btn-light btn-lg active button-white d-flex align-items-center justify-content-center mt-3 rounded-pill border border-dark" role="button" aria-pressed="true" style="font-family:Montserrat; font-size: 16px;">INICIAR SESIÓN</a>
-      </div>
-
-      <footer class="conteiner-fluid d-flex align-items-center justify-content-between footer-register">
-          <p class="d-flex align-items-center ml-5 mt-2" style="font-family:Montserrat; font-size: 20px;">Diseñado en Uruguay</p>
-        <div class="d-inline-flex mr-5">
-          <p class="mr-2 mt-2 d-flex align-items-center" style="font-family:Montserrat; font-size: 20px;">Powered by</p>
-          <img class="d-flex mt-2 mb-1 lg-footer" src="Images/Spotify Logo.png"/>
-        </div>
+      
+      <!-- FOOTER -->
+      <footer class="conteiner-fluid d-none d-md-flex align-items-center justify-content-between footer-register">
+            <p class="d-flex align-items-center ml-5 mt-2" style="font-family:Montserrat; font-size: 20px;">Diseñado en Uruguay</p>
+          <div class="d-inline-flex mr-5">
+            <p class="mr-2 mt-2 d-flex align-items-center" style="font-family:Montserrat; font-size: 20px;">Powered by</p>
+            <img class="d-flex mt-2 mb-1 lg-footer" src="Images/Spotify Logo.png"/>
+          </div>
       </footer>
     </div>
   </body>

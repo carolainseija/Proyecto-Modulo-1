@@ -1,4 +1,16 @@
+.bg-mobile-rgt {
+    filter: brightness(0.4)!important;
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    z-index: -1;
+    /* Preserve aspet ratio */
+    min-width: 100%;
+    min-height: 100%;
+}
 .register-form {
+    background-color: white;
+    border-radius: 15px;
     width: 527px;
     height: auto;
 }
@@ -40,7 +52,20 @@ option {
 .input-gender[type="radio"]{
     width: 20px;
     height: 20px;
-    background-color: green;
+}
+.ask-acc-rgt {
+    text-transform: uppercase;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    text-transform: uppercase;
+    color: rgba(31, 32, 65, 0.5);
+}
+.ask-acc-rgt:hover {
+    color: #1ED760;
+    text-decoration: none;
 }
 .input-gender-label {
     font-family: Montserrat;
