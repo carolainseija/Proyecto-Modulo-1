@@ -60,6 +60,9 @@ h1 {
     line-height: 16px;
     color:green ;
 }
+.table th, td {
+    border-top: 1px solid black !important;
+}
 .bg-dark {
     border-bottom: 1px solid black;
 }
